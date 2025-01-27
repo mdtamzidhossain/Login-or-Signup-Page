@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tamzid{
+    background-image: url(bg.jpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-container{
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+}
+.text-write{
+    display: flex;
+    flex-direction: column;
+}
+
+.large{
+    margin: 8px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.jane{
+    font-size: 25px;
+    background-color: rgb(15, 102, 202);
+    border-radius: 0.2cm;
+    margin: 10px;
+
+}
+.second{
+    margin: 20px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.text-write input[type="submit"] {
+    margin: 10px 0;
+    width: 290px;
+    height: 50px;
+    color: #ffffff99;
+    background-color: #387a9999;
+    border: none;
+    border-radius: 0.1cm;
+    font-weight: bold;
+}
+.text-write input[type="submit"]:hover {
+    background-color: #060b2799;
+}
+.container{
+    background-color: white;
+    height: 15cm;
+    width: 12cm;
+    position: absolute;
+    top:15%;
+    left: 37%;
+    background-color: #17181a99;
+}
